@@ -2,7 +2,7 @@ import random
 import tkinter as tk
 from tkinter import font as tkfont
 
-# ------------------- ORIGINAL GAME LOGIC (unchanged) -------------------
+
 choices = ['paper', "rock", 'scissors']
 
 winner = lambda user, comp: (
@@ -12,7 +12,7 @@ winner = lambda user, comp: (
                  (user == 'rock' and comp == "scissors")
     else "Computer Wins"
 )
-# -------------------------------------------------------------------------
+
 
 EMOJI = {"rock": "🪨", "paper": "📄", "scissors": "✂️"}
 
